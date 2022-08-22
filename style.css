@@ -31,9 +31,7 @@ section{
 ul{
     list-style-type: none;
 }
-li{
 
-}
 a{
     text-decoration:none;
     display:inline-block;
@@ -103,7 +101,6 @@ video{
     align-items:center;
     justify-content:center;
 }
-.navbar-nav nav ul{}
 .navbar-nav nav ul li{
     position:relative;
     transition:all 0.4s ease-in-out;
@@ -327,7 +324,6 @@ section#feature-product{
     color:#088178;
     font-weight:600;
 }
-.product .product-rating{}
 .product .product-rating i{
     color:#fda522;
     font-size:14px;
@@ -412,11 +408,7 @@ section#call-to-banner1{
 .call-banner .call-text{
     margin-left:50px;
 }
-.call-banner .call-text h6{}
-/* .call-banner .call-text h1{
-    font-size:35px;
-} */
-.call-banner .call-text p{}
+
 .call-banner .call-text .call-banner-btn{
     background:transparent;
     color:#fff;
@@ -450,6 +442,9 @@ section#call-to-banner2 .call-banner h1{
 section#call-to-banner2 .call-banner p{
     color:#f51515;
     font-weight:600;
+    background: #ffffffde;
+    display: inline-block;
+    padding: 0 10px;
 }
 .col-3:nth-child(1) .call-banner{
     background: url(img/banner/b7.jpg);
@@ -474,8 +469,7 @@ section#call-to-banner2 .call-banner p{
 }
 
 /* news letter section */
-section#news-letter{
-}
+
 .news-letter-wrapper{
     background-image:url(img/banner/b14.png);
     background-position:20% 30%;
@@ -483,7 +477,6 @@ section#news-letter{
     background-color:#041e42;
     padding:40px 20px;
 }
-.news-text{}
 .news-text h4{
     font-size:22px;
     font-weight:700;
@@ -527,14 +520,12 @@ section#news-letter{
 #footer-section{
 padding-bottom:30px;
 }
-.footer-contact h4{}
 .footer-contact p{
     font-size:14px;
     color:#585858;
     line-height:30px;
 }
-.footer-contact p strong{}
-.footer-about-list{}
+
 .footer-about-list li{
     line-height:25px;
 }
@@ -963,7 +954,6 @@ section#pagination{
 .single-pro-details{
     margin-right:50px;
 }
-.single-pro-details h6{}
 .single-pro-details h4{
     margin:15px 0;
 }
@@ -1236,11 +1226,13 @@ section#contact-form{
 section#page-banner.cart-banner{
     background:url(img/about/banner.png);
 }
+.cart-table{
+    overflow-x:auto;
+}
 .table{
     width:100%;
     border-collapse: collapse;
-    table-layout: fixed;
-    white-space: nowrap;
+    overflow-x:auto;
 }
 .table thead tr{
     border:1px solid #cdd4f8;
@@ -1260,6 +1252,9 @@ section#page-banner.cart-banner{
     max-width:50px;
     line-height:30px;
     text-align: center;
+}
+.table thead tr th{
+    padding-right:15px;
 }
 .table tr td:nth-child(1){
     width:100px;
