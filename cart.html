@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="navbar-brand"><img src="img/logo.png" alt="Logo"></div>
+
+                <div class="navbar-nav">
+                    <nav>
+                        <div class="menu-button">
+                            <div class="menu-button_burger"></div>
+                        </div>
+                        <ul class="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="cart.html" class="active"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- banner section -->
+
+    <section id="page-banner" class="cart-banner">
+        <div class="container">
+            <div class="page-banner-text">
+                <h1>#let's_talk</h1>
+                <p>LEAVE A MESSAGE, We love to hear from you!</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- product cart list -->
+    <section id="cart">
+        <div class="container">
+            <div class="cart-table">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>REMOVE</th>
+                            <th>IMAGE</th>
+                            <th>PRODUCT</th>
+                            <th>PRICE</th>
+                            <th>QUANTITY</th>
+                            <th>SUBTOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-solid fa-circle-minus"></i></td>
+                            <td><img src="img/products/f1.jpg" alt=""></td>
+                            <td><p>Cartoon Astronaut T-Shirt</p></td>
+                            <td><span>$118.19</span></td>
+                            <td><input type="number" value="1"></td>
+                            <td><h5>$118.19</h5></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-circle-minus"></i></td>
+                            <td><img src="img/products/f2.jpg" alt=""></td>
+                            <td><p>Cartoon Astronaut T-Shirt</p></td>
+                            <td><span>$154.55</span></td>
+                            <td><input type="number" value="1"></td>
+                            <td><h5>$154.55</h5></td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-circle-minus"></i></td>
+                            <td><img src="img/products/f3.jpg" alt=""></td>
+                            <td><p>Cartoon Astronaut T-Shirt</p></td>
+                            <td><span>$135.25</span></td>
+                            <td><input type="number" value="1"></td>
+                            <td><h5>$135.25</h5></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- cart process -->
+    <section id="cart-process">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="coupon">
+                        <h3>Apply Coupon</h3>
+                        <form action="">
+                            <input type="text" placeholder="Enter Your Coupon">
+                            <button type="submit">Apply</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="cart-total">
+                        <h3>Cart Total</h3>
+                        <table class="total-table">
+                            <tbody>
+                                <tr>
+                                    <td>Cart Subtotal</td>
+                                    <td>$407.99</td>
+                                </tr>
+                                <tr>
+                                    <td>Shiping</td>
+                                    <td>Free</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Total</strong></td>
+                                    <td><strong>$407.99</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button>Process to Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-contact">
+                        <img src="img/logo.png" alt="">
+                        <h4>Contact</h4>
+                        <p><strong>Address:</strong>Kumarkhali, Kushtia, Dhaka , Bangladesh</p>
+                        <p><strong>Phone:</strong>+8801234567890</p>
+                        <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+                        <div class="follow">
+                            <h4>follow</h4>
+                            <div class="follow-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="about-account">
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="footer-about-list">
+                                    <h4>About</h4>
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Delivery Information</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="footer-myAccount-list">
+                                    <h4>My Account</h4>
+                                    <ul>
+                                        <li><a href="#">Sign In</a></li>
+                                        <li><a href="#">View Cart</a></li>
+                                        <li><a href="#">My Wishlist</a></li>
+                                        <li><a href="#">Track My Order</a></li>
+                                        <li><a href="#">Help</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-app">
+                        <h4>Install App</h4>
+                        <p>From App Store 0f Google Play</p>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="app store">
+                                    <a href="#"><img src="img/pay/app.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="play store">
+                                    <a href="#"><img src="img/pay/play.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Secure Payment Gateways</p>
+                        <img src="img/pay/pay.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer-copy-text">
+                    <p>&copy; 2022 WebMonjur HTML CSS Ecommerce Template</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="settings.js"></script>
+</body>
+</html>
